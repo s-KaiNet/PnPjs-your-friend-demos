@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title>Adal renew iframe</title>
+  <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.14/js/adal.min.js"></script>
+  <!-- Office JavaScript API -->
+  <script>
+    var config = {
+      tenant: 'd2a410c1-dc63-444f-99b4-1a943e8c8d1d',
+      clientId: 'f75c511f-1e5a-44ef-adc1-284be802e03e',
+      navigateToLoginRequestUrl: true
+    };
+    var authContext = new AuthenticationContext(config);
+    var hashValue = window.location.hash;
+
+    if (!hashValue) {
+      throw Error('location hash doesn\'t have a value');
+    }
+
+    authContext.handleWindowCallback();
+  </script>
+</head>
+
+<body>
+  <div id="reactContainer"></div>
+</body>
+
+</html>

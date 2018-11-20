@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pnpjs-graph-spfx-client-side-solution",
+    "id": "2c3e6304-98dd-4130-a0d0-27dc40c56df0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pnpjs-graph-spfx.sppkg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "node-pnpjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pnp/common": "^1.2.4",
+    "@pnp/logging": "^1.2.4",
+    "@pnp/nodejs": "^1.2.6",
+    "@pnp/odata": "^1.2.4",
+    "@pnp/sp": "^1.2.4",
+    "pnp-auth": "0.0.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}

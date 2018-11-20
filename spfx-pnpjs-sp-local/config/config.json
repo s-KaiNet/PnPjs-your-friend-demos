@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "client-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/clientList/ClientListWebPart.js",
+          "manifest": "./src/webparts/clientList/ClientListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "@pnp/sp": "https://cdnjs.cloudflare.com/ajax/libs/pnp-pnpjs/1.2.4/pnpjs.es5.umd.bundle.min.js"
+  },
+  "localizedResources": {
+    "ClientListWebPartStrings": "lib/webparts/clientList/loc/{locale}.js"
+  }
+}
