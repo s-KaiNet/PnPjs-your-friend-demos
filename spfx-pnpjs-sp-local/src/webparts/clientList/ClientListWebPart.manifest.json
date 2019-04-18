@@ -3,6 +3,7 @@
   "id": "5fb82004-0c48-4469-aea4-1f591a178b5a",
   "alias": "ClientListWebPart",
   "componentType": "WebPart",
+  "supportedHosts": ["SharePointWebPart"],
 
   // The "*" signifies that the version should be taken from the package.json
   "version": "*",

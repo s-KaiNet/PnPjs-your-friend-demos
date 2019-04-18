@@ -3,9 +3,9 @@ import * as ReactDom from 'react-dom';
 import { Version, Environment, EnvironmentType } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
-  IPropertyPaneConfiguration,
-  PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
+
+import { IPropertyPaneConfiguration, PropertyPaneTextField } from "@microsoft/sp-property-pane";
 
 import * as strings from 'ClientListWebPartStrings';
 import ClientList from './components/ClientList';

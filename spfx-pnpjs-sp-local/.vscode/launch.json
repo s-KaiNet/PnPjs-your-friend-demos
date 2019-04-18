@@ -21,7 +21,8 @@
       "sourceMapPathOverrides": {
         "webpack:///../../../src/*": "${webRoot}/src/*",
         "webpack:///../../../../src/*": "${webRoot}/src/*",
-        "webpack:///../../../../../src/*": "${webRoot}/src/*"
+        "webpack:///../../../../../src/*": "${webRoot}/src/*",
+        "webpack:///.././src/*": "${webRoot}/src/*"
       },
       "runtimeArgs": [
         "--remote-debugging-port=9222"
@@ -37,7 +38,8 @@
       "sourceMapPathOverrides": {
         "webpack:///../../../src/*": "${webRoot}/src/*",
         "webpack:///../../../../src/*": "${webRoot}/src/*",
-        "webpack:///../../../../../src/*": "${webRoot}/src/*"
+        "webpack:///../../../../../src/*": "${webRoot}/src/*",
+        "webpack:///.././src/*": "${webRoot}/src/*"
       },
       "runtimeArgs": [
         "--remote-debugging-port=9222",

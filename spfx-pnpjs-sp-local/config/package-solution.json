@@ -4,7 +4,8 @@
     "name": "spfx-pnpjs-client-side-solution",
     "id": "47e2e2ad-7d94-4d55-b252-0aaee31a375c",
     "version": "1.0.0.0",
-    "includeClientSideAssets": true
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
   },
   "paths": {
     "zippedPackage": "solution/spfx-pnpjs.sppkg"

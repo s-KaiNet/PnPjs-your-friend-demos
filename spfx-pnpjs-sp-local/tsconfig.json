@@ -4,6 +4,9 @@
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "inlineSources": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
     "jsx": "react",
     "declaration": true,
     "sourceMap": true,
@@ -30,5 +33,6 @@
   "exclude": [
     "node_modules",
     "lib"
-  ]
+  ],
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-2.9/includes/tsconfig-web.json"
 }
