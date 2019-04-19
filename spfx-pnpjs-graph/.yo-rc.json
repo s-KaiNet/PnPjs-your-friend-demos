@@ -2,10 +2,11 @@
   "@microsoft/generator-sharepoint": {
     "isCreatingSolution": true,
     "environment": "spo",
-    "version": "1.6.0",
+    "version": "1.8.1",
     "libraryName": "pnpjs-graph-spfx",
     "libraryId": "2c3e6304-98dd-4130-a0d0-27dc40c56df0",
     "packageManager": "npm",
-    "componentType": "webpart"
+    "componentType": "webpart",
+    "isDomainIsolated": false
   }
 }
