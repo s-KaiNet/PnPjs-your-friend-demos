@@ -4,6 +4,7 @@
     "semicolon": [
       true
     ],
+    "no-floating-promises": false,
     "no-submodule-imports":false,
     "no-implicit-dependencies":false,
     "ban": [
